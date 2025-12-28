@@ -1,0 +1,45 @@
+# Arduino & PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+.compileflags.json
+
+# Arduino IDE
+*.ino.cpp
+*.ino.elf
+*.ino.with_bootloader.bin
+*.ino.with_bootloader.elf
+.arduino15/
+
+# Binaries
+*.bin
+*.elf
+*.hex
+
+# Dependencies
+libraries/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
